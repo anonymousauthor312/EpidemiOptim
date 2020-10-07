@@ -33,7 +33,16 @@ The EpidemiOptim library runs with Python>=3.6. All requirements are listed in t
 
 ### Running an experiment
 
-Experiments can be run with the `epidemioptim/train.py` script:
+Experiments can be run with the `epidemioptim/train.py` that is organized this way:
+
+<p align="center">
+<img src="data/readme/carbon.png" width="60%">
+</p>
+<p align="center">
+ <em>Main EpidemiOptim interface.</em>
+</p>
+
+It can be run from the command line: 
 
 ```
 python train.py --config goal_dqn --expe_name goal_dqn_study --trial_id 0
