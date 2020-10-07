@@ -1,5 +1,15 @@
 # The EpidemiOptim library
 
+<p align="center">
+<img src="data/readme/readme.png" width="100%">
+</p>
+<p align="center">
+ <em>Left: evolution of costs and model parameters for a DQN lock-down policy DQN. Right: Pareto fronts found by 10 runs of NSGA-II.</em>
+</p>
+
+
+
+
 The EpidemicOptimization suite is a library that allows to interface optimization algorithms with models of epidemic propagation. Epidemiological models are wrapped in OpenAI Gym 
 interfaces, making them readily compatible with state-of-the-art optimization algorithms.
 
